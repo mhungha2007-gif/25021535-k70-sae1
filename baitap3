@@ -1,0 +1,17 @@
+try:
+    a = int(input("Nhap so nguyen a: "))
+    b = int(input("Nhap so nguyen b: "))
+    tong = a + b
+    hieu = a-b
+    tich = a*b
+    if b==0:
+        print("khong the chia cho 0")
+    else:
+        phan_nguyen = a//b
+        phan_du = a%b
+        ket_qua_chia_thuc = a/b
+        print(" Phan nguyen:", phan_nguyen)
+        print(" Phan du:", phan_du)
+        print(" Ket qua chia thuc:", ket_qua_chia_thuc)
+except ValueError:
+    print("Vui long nhap so nguyen!")
