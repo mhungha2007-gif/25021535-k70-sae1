@@ -1,0 +1,2 @@
+ten_nguoi = input("Nhap ten ban: ")
+print ("Xin chao, ten cua toi la", ten_nguoi)
