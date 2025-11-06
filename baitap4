@@ -1,0 +1,15 @@
+try:
+    dau_diem=input("Nhap 6 dau diem a1, b1, c1, a2, b2, a3:")
+    score_fake=dau_diem.split()
+    if len(score_fake)!=6:
+        print("Hay nhap dung 6 dau diem")
+    else:
+        score_real=[float(i) for i in score_fake]
+        a1,b1,c1,a2,b2,a3=score_real
+        diem_trung_binh = ((a1 + b1 + c1) + (a2 + b2) * 2 + (a3 * 3)) / 10
+        print(f"Diem trung binh la:{diem_trung_binh:.1f}")
+except ValueError:
+    print("Hay nhap so")
+except Exception as e:
+    print("Da xay ra loi:", e)
+
