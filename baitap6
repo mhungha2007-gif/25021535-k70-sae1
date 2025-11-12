@@ -1,0 +1,6 @@
+a = input("Nhập vào một kí tự chữ cái thường: ")
+unicode_thuong = ord(a)
+print("Mã Unicode của 'a':" ,unicode_thuong)
+ma_unicode_hoa = unicode_thuong - 32
+ky_tu_hoa = chr(ma_unicode_hoa)
+print("Kí tự hoa tương ứng:" ,ky_tu_hoa)
