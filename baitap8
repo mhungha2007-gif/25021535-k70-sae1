@@ -1,0 +1,4 @@
+C= input("Nhập vào độ C:")
+F=(9/5)*float(C) +32
+F_hihi=round(F,2)
+print("Độ F là:",F_hihi)

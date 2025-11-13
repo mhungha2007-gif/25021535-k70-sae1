@@ -1,0 +1,3 @@
+ten = input("Nhập 3 tên cách nhau bằng dấu cách: ").split()
+ten.reverse()
+print(ten[0], ten[1], ten[2])

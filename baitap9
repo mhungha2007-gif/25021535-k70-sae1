@@ -1,0 +1,7 @@
+a=float(input("Giá gốc chiếc đồng hò Movado:"))
+phi_van_chuyen=10
+thue_xuat_nhap_canh=0.3
+thue_vat=0.1
+tong_so_tien_phai_tra=(a+10)+(a+10)*(0.3+0.1)
+round(tong_so_tien_phai_tra,2)
+print("Tổng số tiền phải trả cho chiếc đồng hồ Movado là:",tong_so_tien_phai_tra)

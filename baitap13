@@ -1,0 +1,5 @@
+a = int(input("Nhập số nguyên dương a: "))
+b = int(input("Nhập số nguyên dương b: "))
+tich = a * b
+c = tich % 10
+print("Chữ số hàng đơn vị của tích a * b là:", c)
